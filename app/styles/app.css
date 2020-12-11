@@ -1,0 +1,21 @@
+/* more in Git source */
+.master {
+  float: left;
+  width: 30%;
+  font-size: 20pt;
+}
+.master a {
+  display: block;
+  text-decoration: none;
+}
+.master a:hover {
+  text-decoration: underline;
+}
+.master a.active::before {
+  content: " » ";
+}
+.detail {
+  float: left;
+  width: 70%;
+  font-size: 14pt;
+}
